@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/dialog_post"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/editbox"
+        android:gravity="start"
+        android:hint="Write your post here"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="@color/grey" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/editbox"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Public"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="1"
+            android:buttonTint="@color/Black"
+            android:shadowColor="@color/Black"
+            android:text="Public"
+            android:textColor="@color/grey" />
+
+        <RadioButton
+            android:id="@+id/Private"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_weight="1"
+            android:buttonTint="@color/Black"
+            android:shadowColor="@color/Black"
+            android:text="Private"
+            android:textColor="@color/grey" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/dialog_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:background="@drawable/buttonshape"
+        android:padding="15dp"
+        android:text="Upload Image"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/dialog_posting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttonshape"
+        android:padding="5dp"
+        android:text="Post"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</LinearLayout>

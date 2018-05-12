@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome"
+    android:background="@color/home_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:animateLayoutChanges="true"
+    >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#252a3b"
+        android:orientation="vertical"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:text="Welcome To SC"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:text="it's our Application we hope you feel it's good,this official application to make project DataBase this project it will be like faceBook i don't know why they want that , but it's Ok let's Do it :D "
+
+            />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/buttonshape"
+                android:textAllCaps="false"
+                android:layout_marginRight="15dp"
+                android:text="Login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/login"
+                android:onClick="login"/>
+             <Button
+                android:background="@drawable/buttonshape"
+                android:textAllCaps="false"
+                 android:layout_marginLeft="15dp"
+                android:text="Signup"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/signup"
+                 android:onClick="signup"/>
+        </LinearLayout>
+    </LinearLayout>
+        <include
+            layout="@layout/in_up_contain"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

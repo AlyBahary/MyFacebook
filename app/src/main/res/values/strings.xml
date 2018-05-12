@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DataBase with Api</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="ReG">Registration</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Profile</string>
+    <string name="tab_text_2">Friend list</string>
+    <string name="tab_text_3">All Posts </string>
+    <string name="tab_text_4">Friend Requests </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

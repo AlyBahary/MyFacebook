@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="maincolor">#3f51B5</color>
+    <color name="home_background">#f7f6ff</color>
+    <color name="colorPrimary">#94b2e5</color>
+    <color name="colorPrimaryDark">#000430</color>
+    <color name="colorAccent">#ff5733</color>
+    <color name="click_background">#94b2e5</color>
+    <color name="Black">#000430</color>
+    <color name="grey">#737373</color>
+    <color name="appprimary">#252a3b</color>
+    <color name="white">#fff</color>
+
+</resources>

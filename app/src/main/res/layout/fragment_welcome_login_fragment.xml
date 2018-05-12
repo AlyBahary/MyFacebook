@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    android:animateLayoutChanges="true">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/Black"/>
+    <EditText
+        android:padding="10dp"
+        android:textColor="@color/Black"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_id_card"
+        android:drawablePadding="10dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/editbox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:textColorHint="@color/grey"
+        android:id="@+id/log_in_Email"
+
+        />
+        <EditText
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/Black"
+        android:background="@drawable/editbox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:textColorHint="@color/grey"
+        android:id="@+id/log_in_password"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Login"
+            android:background="@drawable/buttonshape"
+            android:drawablePadding="-10dp"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:id="@+id/log_in_go"/>
+</LinearLayout>
+</FrameLayout>
